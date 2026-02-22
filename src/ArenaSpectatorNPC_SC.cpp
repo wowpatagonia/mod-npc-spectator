@@ -85,7 +85,7 @@ public:
 
         AddGossipItemFor(player, GOSSIP_ICON_DOT, "|TInterface\\icons\\achievement_boss_cthun:30:30:-20:0|tSpectear Jugador Especifico", GOSSIP_SENDER_MAIN, NPC_SPECTATOR_ACTION_SPECIFIC, "", 0, true);
         AddGossipItemFor(player, GOSSIP_ICON_DOT, "|TInterface\\PaperDollInfoFrame\\UI-GearManager-Undo:30:30:-20:0|tRefrescar", GOSSIP_SENDER_MAIN, NPC_SPECTATOR_ACTION_MAIN_MENU);
-        //AddGossipItemFor(player, GOSSIP_ICON_CHAT, "|TInterface/ICONS/inv_misc_questionmark:30:30:-20:0|t Ayuda", GOSSIP_SENDER_MAIN, NPC_SPECTATOR_ACTION_HELP);
+        AddGossipItemFor(player, GOSSIP_ICON_CHAT, "|TInterface/ICONS/inv_misc_questionmark:30:30:-20:0|t Ayuda", GOSSIP_SENDER_MAIN, NPC_SPECTATOR_ACTION_HELP);
         SendGossipMenuFor(player, DEFAULT_GOSSIP_MESSAGE, creature->GetGUID());
         return true;
     }
