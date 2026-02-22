@@ -369,12 +369,12 @@ void ArenaSpectatorNPC::ShowPage(Player* player, uint16 page, uint32 arenaType) 
 
     if (page > 0)
     {
-        AddGossipItemFor(player, 7, "<- Back", GOSSIP_SENDER_MAIN, currentPage - 1);
+        AddGossipItemFor(player, 7, "<- Atras", GOSSIP_SENDER_MAIN, currentPage - 1);
     }
 
     if (hasNextPage)
     {
-        AddGossipItemFor(player, 7, "Next ->", GOSSIP_SENDER_MAIN, currentPage + 1);
+        AddGossipItemFor(player, 7, "Proximo ->", GOSSIP_SENDER_MAIN, currentPage + 1);
     }
 }
 
